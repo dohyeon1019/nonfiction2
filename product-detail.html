@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!--Header Start-->
+    <header2>
+      <div class="header-container2">
+        <div class="h-col3">
+                <li><a href="./product.html">Shop</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Stores</a></li>
+                 <li><a href="#">Contact</a></li>
+        </div>
+        <div style="border-left: 1px solid black; border-right: 1px solid black;" class="h-col3">
+          
+            <a href="./index.html"><p>NONFICTION</p></a>
+          
+        </div>
+        <div class="h-col3" class="item">
+          <li><a href="#">login</a></li>
+                 <li><a href="#">cart</a></li>
+        </div>
+      </div>
+    </header>
+
+<!--Header End-->
+
+
+    <section class="location">
+        <p>SHOP ALL</p>
+            <p><img src="./images/chevron-right.svg"></p>
+        <p>PERFUME</p>
+    </section>
+
+    <div class="product-detail-wrapper">
+        <section class="product-img">
+                <div id="bigImages">
+                    <img id="big" src="https://nonfiction.kr/web/product/small/202201/2ee2a80310a4a24b63b180613343df77.jpg">
+                </div>
+            
+                <div id="smallImages">
+                    <img class="small" src="https://www.nonfiction.kr/web/product/extra/small/202206/df7c2e0f65987b3c7a91bbb32f0a90f6.jpg">
+                    <img class="small" src="https://nonfiction.kr/web/product/small/202201/2ee2a80310a4a24b63b180613343df77.jpg">
+                    <img class="small" src="https://www.nonfiction.kr/web/product/extra/small/202206/c9278ab9bcdce378cf1a18e5617dbe41.jpg">
+                </div>        
+        </section>
+
+        
+        <section class="product-detail">
+            
+            <h1>SANTAL CREAM Perfume</h1>
+            <p>포겟미낫/포더블 오드 퍼퓸/30ML</p>
+
+            <hr/>
+            <h2>"베티버와 샌달우드, 신선한 무화과와 카다멈의 조화가 빚어내는 고요함과 나른함."</h2>
+
+            <h3>Sandalwood, Vetiver, Fig, Cardamom, Ginger, Bergamot</h3>
+
+            <hr/>
+            <p class="scent-desp">일상을 기억으로 만드는 아이코닉한 향기. 부드러운 온기 속에 피어오르는 연무의 춤.
+            빛의 온기가 감도는 나른한 오후, 연인의 품속에서 나누는 사랑스러운 대화. 상탈 크림은 논픽션의 무드를 대표하는 향으로, 산뜻한 무화과와 부드러운 우디 계열의 향조가 적절한 밸런스를 이룬다. 베티버와 샌달우드의 차분함 사이로 방금 으깬 듯 피어오르는 신선한 카다멈의 스파이스는 가장 고요하고 나른한 순간에도 표정을 부여한다. 살결 위에서 크리미하게 표현되는 생생하고 포근한 향은 당신과 함께하는 순간을 더욱 오래도록 기억하게 할 것이다.</p>
+            <hr/>
+
+            <div class="product-option">
+                <h3>Bottle Size</h3>
+                <h3>
+                    30ML
+                </h3>
+            </div>
+
+            <hr/>
+
+            <div class="product-option">
+                <h3>Quantity</h3>
+                <h3 style="display: flex; gap:10px; align-items: center;">
+                    
+                    <input style="width: 30px; height: 30px; border: 1px solid black; background: none; font-size: 24px; line-height: 0px;" type='button' onclick='count("minus")' value='-'/>
+
+                    <div id='result'>1</div>
+
+
+                    <input style="width: 30px; height: 30px; border: 1px solid black; background: none; font-size: 24px; line-height: 0px;" type='button' onclick='count("plus")' value='+'/>
+                    
+                </h3>
+            </div>
+
+            <hr/>
+
+            <div class="product-price">
+                <h3>Total
+                    <span id="price">59200</span>
+                    <span>KRW</span>
+                </h3>
+            </div>
+
+            <div class="normal-button">
+                <button>cart</button>
+                <button>Buy</button>
+            </div>
+        </section>
+
+        <script src="./script.js"></script>
+</body>
+</html>
